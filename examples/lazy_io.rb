@@ -20,7 +20,6 @@ main = DoNotation.run {
   get(:line) { getLine }
   let(:output) { "You said #{line}" }
   just { putStrLn output }
-  just {  }
 }
 
 # is same as
